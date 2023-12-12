@@ -2,11 +2,11 @@
 
 ## What is it?
 
-This Mathematica code samples the production of various hypothetical long-lived particles (LLPs) and simulates their decays at various experiments located or to be located at different facilities - FNAL, SPS, LHC, FCC-hh. It is a hybrid of [<dt><code>SensCalc</code></dt>](https://github.com/maksymovchynnikov/SensCalc), which calculates the event rate with LLPs without providing a detailed event output, and traditional Monte-Carlo simulators.
+This Mathematica code samples the production of various hypothetical long-lived particles (LLPs) and simulates their decays at various experiments located or to be located at different facilities - FNAL, SPS, LHC, FCC-hh. It is a hybrid of [<code>SensCalc</code>](https://github.com/maksymovchynnikov/SensCalc), which calculates the event rate with LLPs without providing a detailed event output, and traditional Monte-Carlo simulators.
 
 ## Idea and input
 
-The code uses tabulated LLP angle-energy distribution functions in the form (LLP mass, theta in rad, energy in GeV, distribution function), various experimental setups, and LLP production and decay phenomenology as an input. The distributions may be conveniently generated using <dt><code>SensCalc</code></dt>, while the rest is directly copied from <dt><code>SensCalc</code></dt>.
+The code uses tabulated LLP angle-energy distribution functions in the form (LLP mass, theta in rad, energy in GeV, distribution function), various experimental setups, and LLP production and decay phenomenology as an input. The distributions may be conveniently generated using <code>SensCalc</code>, while the rest is directly copied from <code>SensCalc</code>.
 
 1. For the given LLP and experiment, it samples 4-momenta of produced LLPs using the admixture of the production channels. To avoid the need to generate a huge statistics for the experiments with small fraction of LLPs reaching the decay volume, the sampling is made only in the direction of the experiment. The absolute yield of LLPs is accordingly generated.
 
@@ -18,7 +18,7 @@ The code uses tabulated LLP angle-energy distribution functions in the form (LLP
 
 ## How to launch
 
-To run the code, two tools have to be installed: [FeynCalc](https://feyncalc.github.io/) and a C compiler. The notebooks should be placed to the <dt><code>SensCalc</code></dt> folder. 
+To run the code, two tools have to be installed: [FeynCalc](https://feyncalc.github.io/) and a C compiler. The notebooks should be placed to the <code>SensCalc</code> folder. 
 
 ## Status
 
