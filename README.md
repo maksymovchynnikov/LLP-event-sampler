@@ -14,11 +14,11 @@ The code uses tabulated LLP angle-energy distribution functions in the form (LLP
 
 3. The phase space of LLP's decay products is either simulated on-flight for any mass (for exclusive decays/decays into jets), or precomputed for several masses (for hadronic decays into quarks/gluons where showering and hadronization occurs).
 
-4. The output is a detailed event record containing two files: one about the LLP information - the production yield, the lifetime, the decay probability and decay vertex, and another one about the decay products phase space - the PDG identifier and 4-momentum.
+4. The output is a detailed event record containing two files: one about the LLP information - the production yield, the lifetime, the decay probability and decay vertex, and another one about the decay products phase space - the PDG identifier and 4-momentum. The output may be handled in the .hepmc format.
 
 ## How to launch
 
-To run the code, two tools have to be installed: [FeynCalc](https://feyncalc.github.io/) and a C compiler. The notebooks should be placed to the <code>SensCalc</code> folder. 
+To run the code, three tools have to be installed: [FeynCalc](https://feyncalc.github.io/), a C compiler, and the package [TableExport](https://github.com/Masterxilo/ExportTable). The notebooks from this repository should be placed to the <code>SensCalc</code> folder. 
 
 ## Status
 
