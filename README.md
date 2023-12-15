@@ -2,7 +2,7 @@
 
 ## What is it?
 
-This Mathematica code samples the production of various hypothetical long-lived particles (LLPs) and simulates their decays at various experiments located or to be located at different facilities - FNAL, SPS, LHC, FCC-hh. It is a hybrid of [<code>SensCalc</code>](https://github.com/maksymovchynnikov/SensCalc), which calculates the event rate with LLPs without providing a detailed event output, and traditional Monte-Carlo simulators.
+This Mathematica code samples the production of various hypothetical long-lived particles (LLPs) and simulates their decays at various lifetime frontier experiments at different facilities - FNAL, SPS, LHC, FCC-hh. It is a hybrid of [<code>SensCalc</code>](https://github.com/maksymovchynnikov/SensCalc), which calculates the event rate with LLPs using the semi-analytic approach, and traditional Monte-Carlo simulators. From the first, it takes independence of the precision on the LLP lifetime - whether it is extremely short-lived or long-lived, the precision stays similar. From the second, it takes the possibility of the detailed event output. 
 
 ## Idea and input
 
